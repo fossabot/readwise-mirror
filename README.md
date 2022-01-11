@@ -1,7 +1,8 @@
 # Readwise Mirror Plugin
 **Readwise Mirror** is an unoffical open source plugin for the powerful note-taking and knowledge-base application [Obsidian](http://obsidian.md/). This plugin allows a user to "mirror" their entire Readwise library by automatically downloading all highlights/notes and syncing changes directly into an Obsidian vault.
 
-![example.gif](https://raw.githubusercontent.com/jsonMartin/readwise-mirror/master/example.gif)
+![example.gif](https://raw.githubusercontent.com/jsonMartin/readwise-mirror/master/example.gif)[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjohannrichard%2Freadwise-mirror.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjohannrichard%2Freadwise-mirror?ref=badge_shield)
+
 
 The format of the output is similar to the Markdown export available directly from Readwise (which groups all highlights together in one file per book/article/etc), except that it is integrated directly into Obsidian and provides beneficial Obsidian formatting enhancements, such as automatically creating `[[Links]]` for Book Titles and Author Names *(supports multiple authors)* and block level link references *(using highlight ID)*.
 
@@ -58,3 +59,7 @@ As a reference for performance, syncing my library of 5,067 Highlights across 92
 ## Future possible feature ideas
 - Custom Template engine support
   - Would allow for custom headers/footers
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjohannrichard%2Freadwise-mirror.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjohannrichard%2Freadwise-mirror?ref=badge_large)
